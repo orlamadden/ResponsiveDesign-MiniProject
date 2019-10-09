@@ -30,11 +30,27 @@ body, html {
     transform: translateY(-50%);
 }
 
+.column {
+    float: left;
+}
+
 .section-paragraph {
     font-size: 1em;
+    margin: 25px;
 }
 
 .footer {
     background-color: grey;
     padding: 15px;
+}
+
+
+@media (min-width: 768px) {
+    .column-60 {
+        width: 60%;
+    }
+    
+    .column-40 {
+        width: 40%;
+    }
 }
