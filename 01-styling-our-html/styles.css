@@ -1,3 +1,9 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -6,4 +12,29 @@
     background-color: orange;
     padding: 15px 25px;
     
+}
+
+.main {
+    height: 100%;
+}
+
+.section {
+    background-color: blue;
+    height: 100%;
+    
+}
+
+.article, .aside {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-paragraph {
+    font-size: 1em;
+}
+
+.footer {
+    background-color: grey;
+    padding: 15px;
 }
